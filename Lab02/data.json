@@ -4,96 +4,28 @@
       {
         "name": "Crosland Tower",
         "overall_rating": 4.3,
-        "study_areas": [
-          {
-            "area": "Silent Study Floors",
-            "rating": 4.7,
-            "noise_level": "Very Quiet",
-            "availability": "High"
-          },
-          {
-            "area": "Group Study Rooms", 
-            "rating": 4.1,
-            "noise_level": "Moderate",
-            "availability": "Medium"
-          },
-          {
-            "area": "Open Seating",
-            "rating": 3.8,
-            "noise_level": "Variable",
-            "availability": "High"
-          }
-        ],
-        "amenities": ["24/7 Access", "Printers", "Scanners", "Computers", "Whiteboards"],
-        "busiest_hours": [14, 15, 16, 19, 20],
-        "average_occupancy_rate": 75,
-        "pros": ["24/7 access", "Quiet floors", "Central location"],
-        "cons": ["Can get crowded", "Limited group spaces"]
+        "study_seats": 1200,
+        "weekly_hours": 168
       },
       {
-        "name": "Price Gilbert Library", 
+        "name": "Prive Gilbert Library",
         "overall_rating": 4.6,
-        "study_areas": [
-          {
-            "area": "Clough Commons Side",
-            "rating": 4.4,
-            "noise_level": "Moderate", 
-            "availability": "Medium"
-          },
-          {
-            "area": "Upper Floors",
-            "rating": 4.8,
-            "noise_level": "Quiet",
-            "availability": "High"
-          },
-          {
-            "area": "Collaborative Zones",
-            "rating": 4.5, 
-            "noise_level": "Lively",
-            "availability": "Low"
-          }
-        ],
-        "amenities": ["Starbucks", "Group Pods", "Media Rooms", "Comfy Chairs", "Outlets"],
-        "busiest_hours": [13, 14, 15, 16, 18],
-        "average_occupancy_rate": 82,
-        "pros": ["Modern facilities", "Great collaborative spaces", "Food nearby"],
-        "cons": ["Can be noisy", "Limited late hours"]
+        "study_seats": 1500,
+        "weekly_hours": 110
       }
     ],
     "comparison_metrics": {
       "hours_accessible": {
-        "Crosland": 168,
-        "Price Gilbert": 110
+        "Crosland Tower": 168,
+        "Prive Gilbert Library": 110
       },
       "study_seat_availability": {
-        "Crosland": 1200, 
-        "Price Gilbert": 1500
-      },
-      "outlet_availability_rating": {
-        "Crosland": 3.2,
-        "Price Gilbert": 4.7
+        "Crosland Tower": 1200,
+        "Prive Gilbert Library": 1500
       },
       "wifi_speed_mbps": {
-        "Crosland": 95,
-        "Price Gilbert": 112
-      },
-      "average_stay_minutes": {
-        "Crosland": 145,
-        "Price Gilbert": 167
-      }
-    },
-    "popular_times": {
-      "Crosland": {
-        "morning": 35,
-        "afternoon": 85, 
-        "evening": 65,
-        "late_night": 45
-      },
-      "Price Gilbert": {
-        "morning": 25,
-        "afternoon": 95,
-        "evening": 75, 
-        "late_night": 15
+        "Crosland Tower": 95,
+        "Prive Gilbert Library": 112
       }
     }
   }
